@@ -75,16 +75,6 @@ function FilePage() {
               tone={entry.revealed ? "ok" : "muted"}
             />
             <DataRow
-              label="Username"
-              value={entry.revealed ? (entry.username ?? "[REDACTED]") : "[REDACTED]"}
-              tone="muted"
-            />
-            <DataRow
-              label="Platform"
-              value={entry.revealed ? (entry.platform ?? "[REDACTED]") : "[REDACTED]"}
-              tone="muted"
-            />
-            <DataRow
               label="Status"
               value={entry.revealed ? (entry.status ?? "CONFIRMED") : "CLASSIFIED"}
               tone={entry.revealed ? "ok" : "muted"}
@@ -92,11 +82,6 @@ function FilePage() {
             {entry.revealed && entry.role ? (
               <DataRow label="Role" value={entry.role} tone="warn" />
             ) : null}
-            <DataRow
-              label="Announced"
-              value={entry.revealed ? (entry.announcedOn ?? "[REDACTED]") : "COMING SOON"}
-              tone="warn"
-            />
             <DataRow
               label="Access"
               value={entry.revealed ? "AUTHORIZED" : "DENIED"}
