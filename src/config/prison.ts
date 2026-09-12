@@ -257,7 +257,7 @@ export const roster: RosterEntry[] = [
     clearance: "CONFIRMED",
     name: "NOISEBYKJ",
     aliases: ["NOISE BY KJ", "NOISEBY KJ", "KJ"],
-    role: "ARTIST — INMATE",
+    role: "INMATE",
     image: noisebykjAsset.url,
     bio: "NoiseByKj is a British artist and online personality who has developed his presence through music, social media and digital entertainment. His work is centred around his sound, his personality and his ability to engage with an online audience, helping him establish a recognisable identity within the creator space. As his presence continues to grow, NoiseByKj is building his own name and community across platforms.",
     socials: [
@@ -276,7 +276,7 @@ export const roster: RosterEntry[] = [
     aliases: ["LBM", "L B M M"],
     role: "INMATE",
     image: lbmmAsset.url,
-    bio: "LBMM is a British online creator and personality who has developed his presence through social media and digital entertainment. His content is driven by personality and audience interaction, allowing him to create an identity that stands out within the wider creator space. LBMM continues to build his online presence while developing his own style and connection with his audience.",
+    bio: "LBMM is a British streamer, online creator and personality who has developed his presence through livestreaming, social media and digital entertainment. His content is driven by personality and audience interaction, allowing him to create an identity that stands out within the wider creator space. LBMM continues to build his online presence while developing his own style and connection with his audience.",
     socials: [
       { platform: "Instagram", url: "https://www.instagram.com/lbmms_/" },
       { platform: "Twitch", url: "https://www.twitch.tv/lbmm" },

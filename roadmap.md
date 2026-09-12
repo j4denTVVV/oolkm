@@ -7,6 +7,6 @@
 - [x] Remove the Vote page and the "what should we call them" teaser
 - [x] About page: XKeonte organised the whole thing, still an inmate
 - [ ] Verify every creator social link; replace guessed handles only with confirmed profiles
-- [ ] Simplify creator records by removing username, platform and announced rows
-- [ ] Label LBMM as a streamer and keep NoiseByKj's artist detail in the biography only
+- [x] Simplify creator records by removing username, platform and announced rows
+- [x] Label LBMM as a streamer and keep NoiseByKj's artist detail in the biography only
 - [ ] Replace the Instagram trailer with the full trailer after a hosted video link is supplied
